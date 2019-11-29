@@ -222,9 +222,9 @@ export class QueryManager<TStore> {
       ).subscribe({
         next(result: ExecutionResult) {
           if (graphQLResultHasError(result) && errorPolicy === 'none') {
-            error = new ApolloError({
+            reject(new ApolloError({
               graphQLErrors: result.errors,
-            });
+            }));
             return;
           }
 

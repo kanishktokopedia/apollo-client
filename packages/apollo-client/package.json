@@ -1,6 +1,6 @@
 {
-  "name": "apollo-client",
-  "version": "2.6.4",
+  "name": "apollo-client-tokopedia",
+  "version": "1.0.0",
   "description": "A simple yet functional GraphQL client.",
   "main": "./lib/bundle.cjs.js",
   "module": "./lib/bundle.esm.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "apollographql/apollo-client"
+    "url": "kanishktokopedia/apollo-client"
   },
   "pre-commit": "lint-staged",
   "keywords": [
