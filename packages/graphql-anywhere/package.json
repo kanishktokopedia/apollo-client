@@ -1,5 +1,5 @@
 {
-  "name": "graphql-anywhere",
+  "name": "graphql-anywhere-tokopedia",
   "version": "4.2.5",
   "description": "Run GraphQL queries with no schema and just one resolver",
   "main": "./lib/bundle.cjs.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apollographql/apollo-client.git"
+    "url": "git+https://github.com/kanishktokopedia/apollo-client.git"
   },
   "bugs": {
     "url": "https://github.com/apollographql/apollo-client/issues"
